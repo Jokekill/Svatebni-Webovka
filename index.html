@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naše svatba | Eliška & Vojta</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page-container">
+        <!-- Navigace -->
+        <nav id="navbar">
+            <div class="nav-container">
+                <div class="logo">E&V</div>
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Domů</a></li>
+                    <li><a href="#our-story" class="nav-link">Náš příběh</a></li>
+                    <li><a href="#details" class="nav-link">Detaily</a></li>
+                    <li><a href="#schedule" class="nav-link">Program</a></li>
+                    <li><a href="#gallery" class="nav-link">Galerie</a></li>
+                    <li><a href="#rsvp" class="nav-link">RSVP</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Úvodní sekce -->
+        <section id="home" class="hero" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/hero-bg.jpg') no-repeat center center/cover">
+            <div class="hero-content">
+                <h1>Eliška & Vojta</h1>
+                <p class="date">23. srpna 2025 v 11:00</p>
+                <div class="countdown-container">
+                    <div id="countdown">
+                        <div class="time">
+                            <h2 id="days">00</h2>
+                            <small>Dní</small>
+                        </div>
+                        <div class="time">
+                            <h2 id="hours">00</h2>
+                            <small>Hodin</small>
+                        </div>
+                        <div class="time">
+                            <h2 id="minutes">00</h2>
+                            <small>Minut</small>
+                        </div>
+                        <div class="time">
+                            <h2 id="seconds">00</h2>
+                            <small>Sekund</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-down">
+                <a href="#our-story">
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+            </div>
+        </section>
+
+        <!-- Náš příběh -->
+        <section id="our-story" class="section">
+            <div class="container">
+                <h2 class="section-title">Náš příběh</h2>
+                <div class="story-container">
+                    <div class="story-image">
+                        <img src="images/our-story.jpg" alt="Náš příběh">
+                    </div>
+                    <div class="story-text">
+                        <h3>Jak jsme se poznali</h3>
+                        <p>Naše cesty se zkřížily před pěti lety na letním festivalu v Praze. Jakub tam byl se svými přáteli a Jana přijela se svou sestrou. Osudové setkání u stánku s limonádou vedlo k celovečernímu rozhovoru a výměně kontaktů.</p>
+                        
+                        <h3>První rande</h3>
+                        <p>O týden později jsme se sešli v malé kavárně v centru města. Plánovaná hodina se protáhla na celé odpoledne a večer. Věděli jsme, že tohle je začátek něčeho výjimečného.</p>
+                        
+                        <h3>Zásnuby</h3>
+                        <p>Po třech letech vztahu Jakub připravil překvapení v podobě výletu do Paříže. Před Eiffelovou věží poklekl a požádal Janu o ruku. Odpověď byla samozřejmě ano!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Detaily -->
+        <section id="details" class="section details-section">
+            <div class="container">
+                <h2 class="section-title">Detaily svatby</h2>
+                <div class="details-container">
+                    <div class="detail-card">
+                        <div class="detail-icon">
+                            <i class="fas fa-church"></i>
+                        </div>
+                        <h3>Obřad</h3>
+                        <p class="detail-time">11:00</p>
+                        <p class="detail-location">Kostel sv. Jakuba</p>
+                        <p>Kostelní 1, Praha 1</p>
+                        <a href="https://maps.google.com" target="_blank" class="map-link">Zobrazit na mapě</a>
+                    </div>
+                    <div class="detail-card">
+                        <div class="detail-icon">
+                            <i class="fas fa-glass-cheers"></i>
+                        </div>
+                        <h3>Hostina</h3>
+                        <p class="detail-time">13:30</p>
+                        <p class="detail-location">Zámek Růže</p>
+                        <p>Zámecká 5, Praha 6</p>
+                        <a href="https://maps.google.com" target="_blank" class="map-link">Zobrazit na mapě</a>
+                    </div>
+                    <div class="detail-card">
+                        <div class="detail-icon">
+                            <i class="fas fa-hotel"></i>
+                        </div>
+                        <h3>Ubytování</h3>
+                        <p class="detail-location">Hotel Růže</p>
+                        <p>Zámecká 7, Praha 6</p>
+                        <p>Pro rezervaci použijte kód: SVATBAJJ</p>
+                        <a href="tel:+420123456789" class="phone-link">+420 123 456 789</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Program -->
+        <section id="schedule" class="section">
+            <div class="container">
+                <h2 class="section-title">Program svatebního dne</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>10:30</h3>
+                            <p>Příjezd hostů do kostela</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>11:00</h3>
+                            <p>Svatební obřad</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>12:00</h3>
+                            <p>Společné focení</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>13:30</h3>
+                            <p>Přípitek a zahájení hostiny</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>16:00</h3>
+                            <p>Krájení svatebního dortu</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>18:00</h3>
+                            <p>První tanec novomanželů</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>19:00</h3>
+                            <p>Večerní zábava a tanec</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Galerie -->
+        <section id="gallery" class="section">
+            <div class="container">
+                <h2 class="section-title">Galerie</h2>
+                <div class="gallery-container">
+                    <div class="gallery-item" onclick="openLightbox(0)">
+                        <img src="images/gallery-1.jpg" alt="Fotka 1">
+                    </div>
+                    <div class="gallery-item" onclick="openLightbox(1)">
+                        <img src="images/gallery-2.jpg" alt="Fotka 2">
+                    </div>
+                    <div class="gallery-item" onclick="openLightbox(2)">
+                        <img src="images/gallery-3.jpg" alt="Fotka 3">
+                    </div>
+                    <div class="gallery-item" onclick="openLightbox(3)">
+                        <img src="images/gallery-4.jpg" alt="Fotka 4">
+                    </div>
+                    <div class="gallery-item" onclick="openLightbox(4)">
+                        <img src="images/gallery-5.jpg" alt="Fotka 5">
+                    </div>
+                    <div class="gallery-item" onclick="openLightbox(5)">
+                        <img src="images/gallery-6.jpg" alt="Fotka 6">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Lightbox -->
+            <div id="lightbox" class="lightbox">
+                <span class="close-lightbox" onclick="closeLightbox()">&times;</span>
+                <div class="lightbox-content">
+                    <img id="lightbox-img" src="">
+                    <a class="prev" onclick="changeImage(-1)">&#10094;</a>
+                    <a class="next" onclick="changeImage(1)">&#10095;</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- RSVP -->
+        <section id="rsvp" class="section rsvp-section">
+            <div class="container">
+                <h2 class="section-title">Potvrzení účasti</h2>
+                <p class="rsvp-intro">Prosíme o potvrzení vaší účasti do 1. srpna 2025.</p>
+                <form id="rsvp-form" class="rsvp-form">
+                    <div class="form-group">
+                        <label for="name">Jméno a příjmení</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Telefon</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="form-group">
+                        <label>Zúčastníte se?</label>
+                        <div class="radio-group">
+                            <input type="radio" id="attending-yes" name="attending" value="yes" required>
+                            <label for="attending-yes">Ano, s radostí</label>
+                        </div>
+                        <div class="radio-group">
+                            <input type="radio" id="attending-no" name="attending" value="no">
+                            <label for="attending-no">Bohužel se nemohu zúčastnit</label>
+                        </div>
+                    </div>
+                    <div class="form-group" id="guests-group">
+                        <label for="guests">Počet hostů (včetně vás)</label>
+                        <select id="guests" name="guests">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Vzkaz pro novomanžele</label>
+                        <textarea id="message" name="message" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Odeslat</button>
+                </form>
+                <div id="form-success" class="form-success">
+                    <i class="fas fa-check-circle"></i>
+                    <p>Děkujeme za potvrzení účasti!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <p>&copy; 2025 Eliška & Vojta | Těšíme se na vás!</p>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
