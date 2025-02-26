@@ -1,5 +1,5 @@
 // Odpočet do svatby
-const weddingDate = new Date("August 23, 2025 11:00:00").getTime();
+const weddingDate = new Date("August 23, 2025 10:00:00").getTime();
 
 function updateCountdown() {
     const now = new Date().getTime();
