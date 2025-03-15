@@ -483,7 +483,7 @@ a:hover {
     margin: 0 auto;      /* Horizontální vycentrování */
     width: 100%;         /* Responsivní šířka */
     max-width: 640px;    /* Maximální šířka, aby se neroztahoval do šířky přes celou stránku */
-    height: 1400px;      /* Nastavte dle potřeby, aby se uvnitř nevytvářel scrollbar */
+    height: 1550px;      /* Nastavte dle potřeby, aby se uvnitř nevytvářel scrollbar */
     border: none;        /* Schováme rámeček iframu */
   }
 
